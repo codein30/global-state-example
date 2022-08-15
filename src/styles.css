@@ -1,0 +1,48 @@
+body,
+html,
+body * {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  max-width: 48em;
+  margin: auto;
+  padding: 1em;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+  padding: 1em;
+}
+
+.message {
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
+
+.nav {
+  margin: 1em 0;
+}
+
+.nav a {
+  margin-right: 1em;
+  background: white;
+  color: green;
+  border: 2px solid green;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  display: inline-block;
+}
+
+.nav a.nav__link--active {
+  background-color: green;
+  color: white;
+}
